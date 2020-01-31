@@ -8,6 +8,10 @@ You can access the app at https://evansalter.com/jira-pretty-printer/. Instructi
 
 ![image](https://user-images.githubusercontent.com/10549733/73567280-afaf3880-442b-11ea-8dc7-a3d701d6d9a7.png)
 
+An example issue:
+
+![image](https://user-images.githubusercontent.com/10549733/73567666-74613980-442c-11ea-8baf-8b4a4b9e9f0d.png)
+
 # Contributing
 
 To run locally:
