@@ -1,21 +1,25 @@
-# client
+# Jira Pretty Printer
 
-> A Vue.js project
+This is a small webapp designed to take an XML export from a JQL query in Jira and format the results in readable and easily printable format.
 
-## Build Setup
+You can access the app at https://evansalter.com/jira-pretty-printer/. Instructions to use are included on the webpage.
 
-``` bash
-# install dependencies
-npm install
+# Screenshots
 
-# serve with hot reload at localhost:8080
-npm run dev
+![image](https://user-images.githubusercontent.com/10549733/73567280-afaf3880-442b-11ea-8dc7-a3d701d6d9a7.png)
 
-# build for production with minification
-npm run build
+# Contributing
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+To run locally:
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+1. `npm i`
+1. `npm run dev`
+
+To deploy new version (manual for now):
+
+1. Merge to master
+1. `git checkout master`
+1. `npm run build`
+1. Commit and push
+
+The deployed version will automatically be updated after the build completes.
